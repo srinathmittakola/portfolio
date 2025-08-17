@@ -21,7 +21,7 @@ export default function Profile() {
 
                 <div className="hero-content">
                     <img src={profile} alt="Profile" className="profile-pic" />
-                    <h2>Hello, I'm Srinath Mittakola</h2>
+                    <h2>Hello, I'm Mittakola</h2>
                     <p>Android Developer | Frontend Designer | Freelancer</p>
                     <a href="#projects" className="btn" >
                         View My Work
