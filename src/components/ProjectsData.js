@@ -5,34 +5,98 @@ import project2 from "../assets/project2.jpg";
 export const projects = [
   {
     id: 1,
-    title: "MyWeather",
+    title: "GemView",
     description:
-      "A simple weather application designed to display current weather conditions and upcoming forecasts clearly and efficiently.",
-    image: project1,
+      "An Android application developed to capture, manage, and organize product images and videos. Integrated with a professional device setup for product photography, using Firebase Firestore and Firebase Storage for secure media storage and efficient SKU-wise management.",
+    image1: project1,
+    image2:project1,
 
+    features: [
+      "Image and video capture using device camera",
+      "SKU-wise media organization",
+      "Firebase Storage integration",
+      "Firestore database for metadata",
+      "Secure user-based access",
+      "Offline caching for fast loading"
+    ],
+
+    techStack: [
+      "Android (Kotlin)",
+      "Firebase Firestore",
+      "Firebase Storage",
+      "CameraView",
+      "Glide"
+    ]
   },
+
   {
     id: 2,
-    title: "ShowX",
+    title: "MyWeather",
     description:
-      "A web application with two panels: Admin Panel for CRUD operations on shoes and managing customers/orders, and User Panel for browsing and purchasing from 7 brands of shoes.",
-    image: project2,
+      "An Android weather application that displays real-time weather conditions along with hourly and 15-day forecasts based on the user’s location. Integrated a third-party Weather API and designed a clean, user-friendly interface for easy data visualization.",
+ image1: project1,
+    image2:project1,
+    features: [
+      "Real-time weather updates based on location",
+      "Hourly weather forecast",
+      "15-day weather forecast",
+      "Dynamic UI updates based on weather data",
+      "Location handling with GPS and fallback options"
+    ],
 
+    techStack: [
+      "Android (Kotlin)",
+      "Weather API",
+      "RecyclerView",
+      "Location Services",
+      "MVVM Architecture"
+    ]
   },
+
   {
     id: 3,
     title: "Converter",
     description:
-      "A universal converter application that handles various measurements and comparable digits, instantly displaying all possible conversions for a given input value.",
-    image: project1,
+      "A lightweight Android unit converter application that supports multiple measurement conversions such as length and temperature. Designed with a simple UI and real-time conversion logic to ensure accuracy and ease of use.",
+ image1: project1,
+    image2:project1,
+    features: [
+      "Supports multiple unit conversions",
+      "Real-time conversion logic",
+      "Simple and intuitive UI",
+      "Error handling for invalid inputs",
+      "Lightweight and fast performance"
+    ],
 
+    techStack: [
+      "Android (Java/Kotlin)",
+      "XML Layouts",
+      "View Binding",
+      "Material Design Components"
+    ]
   },
+
   {
     id: 4,
-    title: "GemView",
+    title: "ShowX",
     description:
-      "An Android application for capturing and managing object media. Integrated with a specialized device for professional-grade product photography, storing media in Firebase Cloud and enabling direct uploads to e-commerce platforms.",
-    image: project2,
+      "A full-stack web application featuring an Admin Panel for managing products, customers, and orders, and a User Panel for browsing and purchasing shoes from multiple brands. Implemented CRUD operations and structured data handling for smooth user interaction.",
+ image1: project1,
+    image2:project1,
+    features: [
+      "Admin panel for product and order management",
+      "User panel for browsing and purchasing products",
+      "CRUD operations for products and users",
+      "Authentication and role-based access",
+      "Structured database handling"
+    ],
 
+    techStack: [
+      "Laravel",
+      "MySQL",
+      "HTML, CSS, JavaScript",
+      "REST APIs",
+      "MVC Architecture"
+    ]
   }
 ];

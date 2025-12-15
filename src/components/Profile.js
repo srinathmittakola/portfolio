@@ -10,6 +10,7 @@ import icon7 from '../assets/react.png'
 import icon8 from '../assets/java-script.png'
 import icon9 from '../assets/python.png'
 import icon10 from '../assets/sql-server.png'
+import resume from "../assets/resume.pdf";
 
 export default function Profile() {
 
@@ -22,10 +23,13 @@ export default function Profile() {
                 <div className="hero-content">
                     <img src={profile} alt="Profile" className="profile-pic" />
                     <h2>Hello, I'm Srinath Mittakola</h2>
-                    <p>Android Developer | Frontend Designer | Freelancer</p>
-                    <a href="#projects" className="btn" >
-                        View My Work
+                    <p>Android Developer (Fresher)</p>
+                    <a href={resume} target="_blank" className="btn">
+                        View / Download CV
                     </a>
+
+
+
                 </div>
 
             </section>

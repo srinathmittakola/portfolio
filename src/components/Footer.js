@@ -30,7 +30,7 @@ export default function Footer() {
             <i className="fab fa-whatsapp"></i>
           </a>
         </div>
-        <p>© 2025 Srinath Mittakola. All rights reserved.</p>
+        <p>Gmail: srinathmittakola1234@gmail.com</p>
 
       </footer>
     </>

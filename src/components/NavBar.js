@@ -23,6 +23,7 @@ export default function Navbar() {
     };
 
     return <nav className="navbar">
+        
         <div className="logo">Portfolio</div>
         <ul>
             <li><a
@@ -61,6 +62,7 @@ export default function Navbar() {
                 Contact
             </a></li>
         </ul>
+        
     </nav>
 }
 

@@ -1,4 +1,4 @@
-import React,{useEffect } from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 
 import Navbar from './components/NavBar';
@@ -10,11 +10,11 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
-  
 
-  
-useEffect(() => {
-    // Select all elements in body
+
+
+  useEffect(() => {
+
     const elements = document.querySelectorAll("section *");
 
     const observer = new IntersectionObserver(
@@ -36,16 +36,16 @@ useEffect(() => {
   return (
     <div className="App">
       <video autoPlay loop muted playsInline className="background-video">
-            <source src="bg.mp4" type="video/mp4" />
-            Your browser does not support HTML5 video.
-    </video>
-      <Navbar/>
-      <Profile/>
-      <AboutMe/>
-      <Projects/>
-      <Experience/>
-      <Contact/>
-      <Footer/>
+        <source src={process.env.PUBLIC_URL + '/bg.mp4'} type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+      <Navbar />
+      <Profile />
+      <AboutMe />
+      <Projects />
+      <Experience />
+      <Contact />
+      <Footer />
 
     </div>
   );

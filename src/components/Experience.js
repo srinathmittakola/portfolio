@@ -6,13 +6,16 @@ export default function Experience() {
     <>
       <section id="experience" className="experience">
         <h2>Experience</h2>
-        {experiences.map((experience)=>(
-          <div class="experience-item">
-          <div class="role">{experience.title}</div>
-          <div><div class="company">{experience.company}</div>
-          <div class="date">{experience.duration}</div></div>
-          
-        </div>
+        {experiences.map((experience) => (
+          <div key={experience.id} className="experience-item">
+            <div className="role">{experience.title}</div>
+            <div>
+              <div className="company">{experience.company}</div>
+              <div className="date">{experience.duration}</div>
+            </div>
+            <p>– Developed Android applications using Kotlin following clean architecture and best coding practices.
+</p>
+          </div>
         ))}
         
       </section>
